@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="id.magga.yourgram.UploadActivity">
+
+    <ImageView
+        android:id="@+id/ivUpload"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@color/colorAccent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivUpload"
+        android:layout_centerHorizontal="true"
+        android:onClick="BtnCamera_Clicked"
+        android:text="CAMERA" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignStart="@+id/button2"
+        android:layout_below="@+id/button2"
+        android:onClick="BtnGallery_Clicked"
+        android:text="GALLERY" />
+
+    <Button
+        android:id="@+id/btnUpload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etCaption"
+        android:layout_centerHorizontal="true"
+        android:onClick="BtnUpload_Clicked"
+        android:text="UPLOAD" />
+
+    <EditText
+        android:id="@+id/etCaption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button3"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Enter your caption here ..."
+        android:inputType="textPersonName"
+        android:maxLines="4" />
+</RelativeLayout>

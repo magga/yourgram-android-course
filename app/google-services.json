@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1092220501779",
+    "firebase_url": "https://yourgram-9ba13.firebaseio.com",
+    "project_id": "yourgram-9ba13",
+    "storage_bucket": "yourgram-9ba13.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1092220501779:android:3053697e018f5578",
+        "android_client_info": {
+          "package_name": "id.magga.yourgram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1092220501779-1qcqq5u1smk7e7r7k4pg21738v0vbrk1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "id.magga.yourgram",
+            "certificate_hash": "ae8a5e84d487e1503745a282e6ee8e37d69be8c0"
+          }
+        },
+        {
+          "client_id": "1092220501779-uird21b4i26jdtdb9tecbtm5v6nu47cq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwSeANP43rxyGtNb23JNEoHfCmsWskSgk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1092220501779-uird21b4i26jdtdb9tecbtm5v6nu47cq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
