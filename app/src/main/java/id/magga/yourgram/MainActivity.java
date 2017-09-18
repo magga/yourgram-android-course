@@ -1,5 +1,7 @@
 package id.magga.yourgram;
 
+// Penambahan Second Commit
+
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -100,7 +102,7 @@ public class MainActivity extends AppCompatActivity {
             btnMode.setText("Login");
         }
     }
-    
+
 
     public void GoToHome(){
         Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
